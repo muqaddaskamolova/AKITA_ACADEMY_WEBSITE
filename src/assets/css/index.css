@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.align-content {
+  @apply max-w-screen-2xl mx-auto p-5 pt-10 sm:px-10 sm:pt-0;
+}
+ body{font-family:'sans-serif';
+    
+ }
+ 

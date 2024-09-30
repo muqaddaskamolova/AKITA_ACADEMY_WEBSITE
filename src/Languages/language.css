@@ -1,0 +1,16 @@
+
+.translate-select {
+    width: 99px;
+    height: 29px;
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+.translate-icon {
+    width: 25px;
+    height: 25px;
+}
+.translate {
+    position: relative;
+}

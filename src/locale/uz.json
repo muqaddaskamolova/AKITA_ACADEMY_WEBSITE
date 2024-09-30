@@ -1,0 +1,80 @@
+{
+    "Tillar":"Tillar",
+    "logo-text": "Toshkentda joylashgan Koreys tili hamda Topik o’quv markazi",
+    "Nega biz":  "Nega biz",
+    "Natijalar": "Natijalar",
+    "Kurslar":  "Kurslar",
+    "Ko’p beriladigan savollar": "Ko’p beriladigan savollar",
+    "Hoziroq bog'\nlaning": "Hoziroq bog’laning",
+    "Menu": "Ro'\nyhat",
+    "3 oyda Koreys tilida gapirishni boshlang": "3 oyda Koreys tilida gapirishni boshlang",
+    "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati": "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati",
+    "5 oyda Topikdan 6 darajagacha olishda yordam beramiz": "5 oyda Topikdan 6 darajagacha olishda yordam beramiz",
+    "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati": "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati",
+    "Bepul darsga yozilish": "Bepul darsga yozilish",
+    "Birinchi darsga bepul yoziling!": "Birinchi darsga bepul yoziling!",
+    "TOPIK academiya aniq siz uchun agar siz": "TOPIK academy aniq siz uchun agar siz:",
+    "lione": "Qisqa muddat ichida Koreys tilida gapirishni istaysiz",
+    "litwo": "Koreys tili o’rganib o’z karyerangizni qurmoqchisiz",
+    "Topik sertifikatini olib Koreyaning nufuzli universitetlariga":  "Topik sertifikatini olib Koreyaning nufuzli universitetlariga GRANT yutmoqchisiz",
+    "lifoo":   "Janubiy Koreya davlatida o’qish va ishlash uchun ketmoqchisiz",
+    "lifife":  "Koreys tilini o’rta darajda bilasiz va darajangizni oshirmoqchisiz",
+    "lisix":   "Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz",
+    "foryoubutton": "HA, BU MEN",
+    "TOPIK academy consulting":"TOPIK academy consulting\n",
+    "jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi":"jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi",
+    "Ariza qoldirish":"Ariza qoldirish",
+    "Qisqa":"Qisqa",
+    "muddat ichida Koreys tilida gaplashishni istaysiz":"muddat ichida Koreys tilida gaplashishni istaysiz",
+    "Koreys tilini o'rganib o'z":"Koreys tilini o'rganib o'z",
+    "karyerangizni":"karyerangizni",
+    "qurmoqchisiz":"qurmoqchisiz",
+      "grant": {
+        "title": "Koreya Universitetlariga 100% gacha grant yutish imkoniyati",
+        "scholarshipTitle": "GKS (Global Korean Scholarship) Granti",
+        "description": "Janubiy Koreya hukumatining stipendiya dasturi (GKS), xorijiy talabalarga Koreyada bakalavr va magistratura bosqichida 100% gacha grant va oylik stipendiya olish imkoniyatini taqdim etadi.",
+        "foreign": "xorijiy",
+        "scholarshipDetails": " talabalarga 100% gacha to’liq grant va oylik stipendiya olish imkoniyati mavjud.",
+        "benefitsTitle": "GKS granti sizga nima beradi",
+        "benefit1": "Dastur boshlanganida va tugaganida Koreyaga borish va qaytish xarajatlari qoplanadi.",
+        "benefit2": "Koreyaga yetib borganda joylashib olish uchun bir martalik to'lov beriladi. Miqdori - 200,000 Koreya voni (taxminan 157 AQSh dollari).",
+        "benefit3": "Til kursi va universitetning kontrakt to’lovi to’liq to’lab beriladi (faqat magistr va doktorantlarga).",
+        "more": "ko’proq"
+      },
+      
+        "about": {
+          "title": "Nima uchun aynan TOPIK academy?",
+          "professionalTeachers": "Professional ustozlar",
+          "professionalTeachersDescription": "Sizga 4 yildan ortiq tajriba va Topik darajasi 6 bo'lgan o'qituvchilar dars beradi.",
+          "freeCoworking": "Bepul coworking zonalari",
+          "freeCoworkingDescription": "Erkin dars qilish, networking va o'z ustingizda ishlash uchun bepul coworking zonalarimiz mavjud.",
+          "weeklyEvents": "Haftalik tadbirlar",
+          "weeklyEventsDescription": "TOPIK academy jamoasi o'quvchilari uchun doimiy ravishda qo'shimcha tadbirlar tashkil etiladi.",
+          "freeExams": "Bepul sinov imtihonlari",
+          "freeExamsDescription": "Har oy davomida tashkil etiladigan sinov imtihonlarida qatnashib o'z darajangizni bilib borasiz.",
+          "supportCurators": "Yordamchi kuratorlar",
+          "supportCuratorsDescription": "Darslarni o'zlashtirishda qiyinchilik bo'lsa sizga yordam beradigan kuratoringiz bo'ladi.",
+          "consultantService": "Konsultant hizmati",
+          "consultantServiceDescription": "Muvaffaqiyatli bitirgan talabalarimizga Janubiy Koreada o'qishi uchun viza olishda, universitet tanlash va grant yutishda yordam beramiz."
+        },
+          "faq": {
+            "title": "Ko'p beriladigan savollar",
+            "question1": "O'quv materiallari bilan ta'minlaysizlarmi yoki o'zim izlab topamanmi?",
+            "question2": "Darslar qaysi tilda o'tkaziladi?",
+            "question3": "Kurs davomida qo'shimcha yordam olsam bo'ladimi?",
+            "question4": "Sinov imtihonlariga tayyorlashda yordam berasizlarmi?",
+            "subtitle": "Savollaringiz qoldimi?",
+            "contactPrompt": "Ma'lumotlaringizni qoldiring, siz bilan bog'lanib barcha savollaringizga javob beramiz.",
+            "namePlaceholder": "Ismingiz",
+            "phonePlaceholder": "+998 99-999-99-99",
+            "sending": "Yuborilmoqda...",
+            "submit": "Savol berish",
+            "successMessage": "Xabaringiz muvaffaqiyatli yuborildi!",
+            "errorMessage": "Xatolik yuz berdi, iltimos yana urinib ko'ring!"
+          }
+        
+        
+      
+    
+    
+  }

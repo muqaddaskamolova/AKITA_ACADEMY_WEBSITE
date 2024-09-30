@@ -1,0 +1,228 @@
+.hero{
+    background-image: url(../../assets/images/saroy.png);
+    background-position: calc(50% + 211px) calc(50% - -29px);
+    background-size: 1052px 742px;
+    background-repeat: no-repeat;
+    margin-bottom: 132px;
+  }
+  
+  .hero-span {
+    display: inline-block;
+    margin-top: 58px;
+    margin-bottom: 48px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 400;
+  }
+  .hero-span::before {
+    content: "";
+    position: relative;
+    top: -6px;
+    left: -20px;
+    width: 35.44px;
+    height: 1px;
+    margin-left: 30px;
+    margin-top: 25px;
+    display: inline-block;
+    background-color: green;
+  }
+  .hero-wrap {
+    max-width: 770px;
+  }
+  .hero-title {
+    margin-bottom: 84px;
+    font-size: 54px;
+    line-height: 1.35;
+    font-weight: 400;
+  }
+  .hero-text {
+    margin-left: 45px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  .hero-text::after {
+    position: relative;
+    top: -56px;
+    left: -33px;
+    display: block;
+    background-image: url(../../assets/images/barg1.png);
+    width: 50px;
+    height: 91px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+  .hero-textbigwrap {
+    display: flex;
+    align-items: center;
+  }
+  .hero-texwrapone {
+    max-width: 198px;
+  
+  }
+  .hero-textwrapfirs {
+    max-width: 295px;
+    margin-left: 55px;
+  }
+  .hero-button {
+    color: #333333;
+    font-weight: 300;
+  }
+  .hero-endspan {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.35;
+    font-weight: 500;
+  }
+  @media (max-width: 1024px)  {
+    .hero-title {
+      font-size: 42px!important;
+    }
+    .hero-textbigwrap {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .hero-textone {
+      position: relative;
+      top: 80px;
+    }
+    .hero-textwrapfirs {
+      margin-top: 190px;
+      position: relative;
+      top: 225px;
+      right: 255px;
+    }
+    .hero-button {
+      margin-top: 100px;
+      top: 100px;
+    }
+    .hero-endspan {
+      position: relative;
+      top: 120px;
+    }
+    .ant-flex {
+      /*margin: 0;*/
+    }
+  }
+  @media (max-width: 650px)  {
+    .hero-title {
+      font-size: 32px;
+    }
+    .hero-span {
+      margin-left: 29px;
+    }
+    .hero-span::before {
+      display: none;
+    }
+    .hero-textone {
+      position: relative;
+      bottom: 20px;
+    }
+    .hero-texttwo {
+      position: relative;
+      top: 40px;
+      left: 20px;
+    }
+  
+    .hero-button {
+      position: relative;
+      top: 134px;
+      left: 20px;
+    }
+    .hero-endspan {
+      text-align: center;
+      position: relative;
+      top: 150px;
+      left: 20px;
+    }
+  }
+  @media (max-width: 588px)  {
+    .hero-title {
+      font-size: 32px;
+    }
+    .hero-span {
+      margin-left: 29px;
+    }
+    .hero-span::before {
+      display: none;
+    }
+    .hero-textone {
+      position: relative;
+      top: 33px;
+    }
+    .hero-texttwo {
+      position: relative;
+      bottom: 40px;
+      left: 200px;
+    }
+  
+    .hero-button {
+      position: relative;
+      top: 135px;
+      left: 20px;
+    }
+    .hero-endspan {
+      text-align: center;
+      position: relative;
+      top: 155px;
+      left: 20px;
+    }
+  }
+  @media (max-width: 450px) {
+    .hero-title {
+      font-size: 22px!important;
+      align-items: center;
+    }
+    .hero-texttwo {
+      position: relative;
+      bottom: 4px;
+      left: 200px;
+    }
+    .hero-button {
+      position: relative;
+      top: 135px;
+      left: 20px;
+    }
+    .hero-endspan {
+      text-align: center;
+      position: relative;
+      top: 155px;
+      left: 20px;
+    }
+  }
+  @media (max-width: 394px)  {
+    .hero-span {
+      text-align: center;
+    }
+    .hero-title {
+      text-align: center;
+      margin-left: 18px;
+      font-size: 22px !important;
+      font-weight: 400  ;
+    }
+    .hero-textone {
+      width: 100%;
+      position: relative;
+      bottom: 20px;
+  
+    }
+    .hero-texttwo {
+      position: relative;
+      top: 52px;
+      left: 200px;
+      display: flex;
+      align-items: start;
+      justify-content: left;
+      flex-direction: column;
+    }
+  
+    .hero-endspan {
+      position: absolute;
+      top: 1300px;
+      right: 55px;
+      display: flex;
+      font-size: 24px;
+    }
+  }
