@@ -15,7 +15,7 @@ function Suggestion() {
     <div className="py-10 px-4 md:px-8">
       {/* Sarlavha */}
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 max-w-4xl mx-auto">
-        {t("TOPIK academiya aniq siz uchun agar siz")} :
+        {t("AKITA academiya aniq siz uchun agar siz")} :
       </h2>
       
       {/* Tavsiyalar ro'yxati */}
@@ -44,7 +44,7 @@ function Suggestion() {
             <img src={Money} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
-            {t("Topik sertifikatini olib Koreyaning nufuzli universitetlariga")} 
+            {t("Akita sertifikatini olib Koreyaning nufuzli universitetlariga")} 
             <span className="text-blue-400">{t("GRANT")}</span>{t(" yutmoqchisiz")}
           </p>
         </li>

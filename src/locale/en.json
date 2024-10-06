@@ -1,6 +1,6 @@
 {
     "Tillar":"Languages",
-    "logo-text": "Korean Language and TOPIK Study Center located in Tashkent",
+    "logo-text": "Korean Language and AKITA Study Center located in Tashkent",
     "Nega biz":  "Why Us",
     "Natijalar": "Results",
     "Kurslar":  "Courses",
@@ -9,19 +9,19 @@
     "Menu": "Menu",
     "3 oyda Koreys tilida gapirishni boshlang": "Start speaking Korean in 3 months",
     "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati": "Opportunity to study at South Korean universities with up to 100% scholarships",
-    "5 oyda Topikdan 6 darajagacha olishda yordam beramiz": "We help you achieve TOPIK level 6 in 5 months",
-    "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati":"Opportunity to study and work in South Korea, achieving a high level on TOPIC" ,
+    "5 oyda Akitadan 6 darajagacha olishda yordam beramiz": "We help you achieve AKITA level 6 in 5 months",
+    "Akita yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati":"Opportunity to study and work in South Korea, achieving a high level on AKITA" ,
     "Bepul kursga yozilish": "Sign up for a free lesson.",
     "Birinchi darsga bepul yoziling!": "Sign up for the first lesson for free!",
-    "TOPIK academiya aniq siz uchun agar siz": "TOPIK Academy is just right for you if you:",
+    "AKITA academiya aniq siz uchun agar siz": "AKITA Academy is just right for you if you:",
     "lione": "You want to start speaking Korean in a short period of time.",
     "litwo": "You want to learn Korean and build your career",
-    "Topik sertifikatini olib Koreyaning nufuzli universitetlariga": "You want to obtain a TOPIK certificate and win a scholarship to prestigious universities in Korea",
+    "Akita sertifikatini olib Koreyaning nufuzli universitetlariga": "You want to obtain a AKITA certificate and win a scholarship to prestigious universities in Korea",
     "lifoo": "You want to go to South Korea to study and work",
     "lifife": "You have an intermediate level of Korean and want to improve it.",
     "lisix":  "You have been studying for many years but still haven't achieved the desired results.",
     "foryoubutton": "YES, THAT'S ME",
-    "TOPIK academy consulting":"TOPIK academy consulting\n",
+    "AKITA academy consulting":"AKITA academy consulting\n",
     "jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi":"team will closely assist you in choosing a university, obtaining a visa and winning a grant",
     "Ariza qoldirish":"Submit an application",
     "Qisqa":"Short",
@@ -29,6 +29,20 @@
     "Koreys tilini o'rganib o'z":"Learn Korean and own it",
     "karyerangizni":"your career",
     "qurmoqchisiz":"want to build",
+      "Janubiy Koreya davlatida": "In South Korea",
+      "o’qish": "study",
+      "va": "and",
+      "ishlash": "work",
+      "uchun ketmoqchisiz": "are you planning to go",
+      "Koreys tilini o’rta darajda bilasiz va darajangizni": "You know Korean at an intermediate level and want to",
+        "oshirmoqchisiz": "improve your level",
+        "Ko’p yillardan buyon o’qib ham": "You have been studying for many years, but",
+        "natijaga": "results",
+        "chiqa olmayapsiz": "are not achieving them",
+        "HA, BU MEN": "YES, THAT'S ME",
+    "O’quvchilarimizning natijalari AKITA 6 gacha":"Our students' results up to AKITA 6.",
+    "Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz" :" We help our successful graduates choose a university and win a scholarship.",
+    "Ko'proq ma'lumot olish uchun bepul konsultatsiyaga yoziling!":"Sign up for a free consultation to get more information!",
       "grant": {
         "title": "Opportunity to win up to 100% grant for Korean universities",
         "scholarshipTitle": "GKS (Global Korean Scholarship)",
@@ -48,7 +62,7 @@
           "freeCoworking": "Free coworking zones",
           "freeCoworkingDescription": "We offer free coworking zones for self-study, networking, and working on your skills.",
           "weeklyEvents": "Weekly events",
-          "weeklyEventsDescription": "The TOPIK academy team regularly organizes additional events for its students.",
+          "weeklyEventsDescription": "The AKITA academy team regularly organizes additional events for its students.",
           "freeExams": "Free trial exams",
           "freeExamsDescription": "Participate in monthly trial exams to track your progress.",
           "supportCurators": "Support curators",
@@ -70,11 +84,44 @@
             "submit": "Submit question",
             "successMessage": "Your message has been sent successfully!",
             "errorMessage": "Something went wrong! Please try again."
-          }
-        
-        
-      
-      
-    
-    
-  }
+          },
+            "courses": {
+              "title": "Register for a Course That Suits You",
+              "intensive": {
+                "name": "Intensive",
+                "duration": "Duration: 5 months",
+                "description": "An intensive course for those who want to deeply master the Korean language, with classes 6 days a week, 1.5 hours each.",
+                "price": "970,000 UZS/month",
+                "register": "Register"
+              },
+              "standard": {
+                "name": "Standard",
+                "duration": "Duration: 5 months",
+                "description": "Standard Korean language classes held 3 days a week, 1.5 hours each.",
+                "price": "560,000 UZS/month",
+                "register": "Register"
+              },
+              "individual": {
+                "name": "Individual",
+                "duration": "Duration: 5 months",
+                "description": "Individual lessons for those who want personalized instruction, with flexible scheduling and a tailored approach.",
+                "price": "1,800,000 UZS/month",
+                "register": "Register"
+              }
+            },"Haftada 3 kun 1.5 soatdan  iborat odatiy Koreys tili  darslari.":"Regular Korean language lessons 3 days a week, 1.5 hours each.",
+              "O'zingizga mos kursga ro'yhatdan o'ting": "Sign up for the course that suits you",
+              "Intensive": "Intensive",
+              "Davomiyligi: 5 oy": "Duration: 5 months",
+              "Koreys tilini": "Korean language",
+              "chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.": "An intensive course for those who want to deeply master the Korean language, 6 days a week, 1.5 hours each.",
+              "Ro'yhatdan o'tish": "Register",
+              "970.000 so'm/oy": "970.000 UZS/month",
+              "Odatiy": "Regular",
+              "Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.": "Regular Korean language lessons 3 days a week, 1.5 hours each.",
+              "560.000 so'm/oy": "560.000 UZS/month",
+              "Individual": "Individual",
+              "O’qituvchidan": "From a teacher",
+              "individual": "individual",
+              "dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.": "Individual lessons 3 days a week, 1.5 hours each. Flexible schedule and individual approach.",
+              "1.800.000 so'm/oy": "1.800.000 UZS/month"
+            }

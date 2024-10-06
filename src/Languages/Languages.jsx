@@ -16,7 +16,7 @@ function Languages() {
         <div className="translate relative left-[40px] top-[0] flex items-center mt-5">
            
             <select
-                className='translate-select absolute right-[-50] top-[-50]'
+                className='translate-select absolute right-[-50] top-[-50] border-green-400 text-center'
                 name="lng"
                 id="ln"
                 onChange={handleChange}

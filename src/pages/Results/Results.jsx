@@ -9,7 +9,7 @@ function Results() {
   return (
     <div id="Results" className="p-4 sm:p-8 md:p-12 lg:p-16">
       <h4 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold my-5">
-        {t("")} O’quvchilarimizning natijalari TOPIK 6 gacha
+        {t("O’quvchilarimizning natijalari AKITA 6 gacha")} 
       </h4>
       
       <Marquee className="mb-10" gradient={false}>

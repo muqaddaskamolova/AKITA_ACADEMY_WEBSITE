@@ -33,14 +33,14 @@ function Navbar() {
         </button>
         
         {/* Menyu (mobilda ochiriladigan bo'lsa) */}
-        <div className={`lg:flex lg:ml-18 ${isOpen ? 'block' : 'hidden'}`}>
+         <div className={`lg:flex lg:ml-18 ${isOpen ? 'block' : 'hidden'}`}>
           <Menu />
          </div>
          
         <div className="navbar-end hidden lg:flex items-center">
         {/* Aloqa ma'lumotlari */}
         <a href="#Contact">
-          <p className="flex flex-col font-semibold ">
+          <p className="flex flex-col font-semibold text-green-900">
             +998 (33) 306 00 98
              <span>{t("Hoziroq bog'\nlaning")}</span> 
           </p>

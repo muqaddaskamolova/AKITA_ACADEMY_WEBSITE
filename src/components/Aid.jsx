@@ -50,7 +50,7 @@ function Aid() {
         {/* Matn va tugma */}
         <div className="max-w-md mx-auto sm:mx-0">
           <h6 className="text-xl lg:text-2xl mb-5 lg:mb-10">
-            <span className="text-accent">{t("TOPIK academy consulting")}</span>{t("jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi")}
+            <span className="text-accent">{t("AKITA academy consulting")}</span>{t("jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi")}
           </h6>
           <p className="text-base lg:text-lg mb-5">
             {t("Ko'proq ma'lumot olish uchun bepul konsultatsiyaga yoziling!")} 

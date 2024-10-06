@@ -1,6 +1,6 @@
 {
     "Tillar":"Языки",
-     "logo-text": "Учебный центр корейского языка и TOPIK, расположенный в Ташкенте\n",
+     "logo-text": "Учебный центр корейского языка и AKITA, расположенный в Ташкенте\n",
     "Nega biz":  "Почему мы",
     "Natijalar": "Результаты",
     "Kurslar":  "Курсы",
@@ -9,19 +9,19 @@
     "Menu": "Cписок",
     "3 oyda Koreys tilida gapirishni boshlang":  "Начните говорить на корейском за 3 месяца",
     "Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati": "Возможность учиться в университетах Южной Кореи с получением стипендии до 100%",
-    "5 oyda Topikdan 6 darajagacha olishda yordam beramiz":  "Мы поможем вам достичь 6 уровня TOPIK за 5 месяцев.",
-    "Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati": "Возможность учиться и работать в Южной Корее, достигнув высокого уровня на TOPIK.",
+    "5 oyda Topikdan 6 darajagacha olishda yordam beramiz":  "Мы поможем вам достичь 6 уровня AKITA за 5 месяцев.",
+    "Akitadan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati": "Возможность учиться и работать в Южной Корее, достигнув высокого уровня на TOPIK.",
     "Bepul kursga yozilish": "Записаться на бесплатный урок.",
     "Birinchi darsga bepul yoziling!": "Запишитесь на первый урок бесплатно!",
-    "TOPIK academiya aniq siz uchun agar siz": "TOPIK Academy точно для вас, если вы:",
+    "AKITA academiya aniq siz uchun agar siz": "AKITA Academy точно для вас, если вы:",
     "lione": "Вы хотите говорить на корейском языке в кратчайшие сроки",
     "litwo": "Вы хотите изучить корейский язык и построить свою карьеру",
-    "Topik sertifikatini olib Koreyaning nufuzli universitetlariga": "Вы хотите получить сертификат TOPIK и выиграть грант в престижных университетах Кореи",
+    "AKITA sertifikatini olib Koreyaning nufuzli universitetlariga": "Вы хотите получить сертификат AKITA и выиграть грант в престижных университетах Кореи",
     "lifoo": "Вы хотите поехать в Южную Корею, чтобы учиться и работать",
     "lifife": "Вы владеете корейским языком на среднем уровне и хотите повысить свой уровень",
     "lisix": "Вы изучаете уже много лет, но не можете достичь результата",
     "foryoubutton": "ДА, ЭТО Я",
-    "TOPIK academy consulting":"TOPIK academy consulting\n",
+    "AKITA academy consulting":"AKITA academy consulting\n",
     "jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi":"команда окажет вам всестороннюю помощь в выборе университета, получении визы и получении гранта",
     "Ariza qoldirish":"Подать заявку",
     "Qisqa":"Kороткий",
@@ -29,6 +29,23 @@
     "Koreys tilini o'rganib o'z":"Выучите корейский и владейте им",
     "karyerangizni":"ваша карьера",
     "qurmoqchisiz":"хочу построить",
+     "Janubiy Koreya davlatida": "В Южную Корею",
+      "o’qish": "учиться",
+      "va": "и",
+      "ishlash": "работать",
+      "uchun ketmoqchisiz": "собираетесь поехать",
+      "Koreys tilini o’rta darajda bilasiz va darajangizni": "Вы знаете корейский язык на среднем уровне и хотите",
+        "oshirmoqchisiz": "повысить свой уровень",
+        "Ko’p yillardan buyon o’qib ham": "Вы учитесь уже много лет, но",
+        "natijaga": "результатов",
+        "chiqa olmayapsiz": "не можете достичь",
+          "Akita sertifikatini olib Koreyaning nufuzli universitetlariga": "Получив сертификат Akita, в престижные университеты Кореи",
+          "GRANT": "ГРАНТ",
+          "yutmoqchisiz": "вы хотите получить",
+          "HA, BU MEN": "ДА, ЭТО Я",
+          "O’quvchilarimizning natijalari AKITA 6 gacha":"Результаты наших учеников до AKITA 6.",
+    "Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz" :"Мы помогаем нашим успешным выпускникам выбрать университет и получить грант.",
+    "Ko'proq ma'lumot olish uchun bepul konsultatsiyaga yoziling!":"Запишитесь на бесплатную консультацию, чтобы получить больше информации!",
         "grant": {
           "title": "Возможность получения гранта до 100% на обучение в университетах Кореи",
           "scholarshipTitle": "Стипендия GKS (Глобальная Корейская Стипендия)",
@@ -42,13 +59,13 @@
           "more": "еще"
         },
             "about": {
-              "title": "Почему именно TOPIK academy?",
+              "title": "Почему именно AKITA academy?",
               "professionalTeachers": "Профессиональные учителя",
-              "professionalTeachersDescription": "Занятия проводят учителя с более чем 4-летним опытом и уровнем Topik 6.",
+              "professionalTeachersDescription": "Занятия проводят учителя с более чем 4-летним опытом и уровнем Akita 6.",
               "freeCoworking": "Бесплатные коворкинг-зоны",
               "freeCoworkingDescription": "У нас есть бесплатные коворкинг-зоны для свободного обучения, общения и работы над собой.",
               "weeklyEvents": "Еженедельные мероприятия",
-              "weeklyEventsDescription": "Команда TOPIK academy регулярно организует дополнительные мероприятия для своих учеников.",
+              "weeklyEventsDescription": "Команда AKITA academy регулярно организует дополнительные мероприятия для своих учеников.",
               "freeExams": "Бесплатные пробные экзамены",
               "freeExamsDescription": "Каждый месяц проводятся пробные экзамены, чтобы вы могли следить за своим уровнем.",
               "supportCurators": "Поддержка кураторов",
@@ -70,12 +87,21 @@
                   "submit": "Задать вопрос",
                   "successMessage": "Ваше сообщение успешно отправлено!",
                   "errorMessage": "Что-то пошло не так! Попробуйте снова."
+                },
+                "Haftada 3 kun 1.5 soatdan  iborat odatiy Koreys tili  darslari.":"Обычные занятия по корейскому языку 3 дня в неделю по 1.5 часа.",
+                  "O'zingizga mos kursga ro'yhatdan o'ting": "Запишитесь на подходящий для вас курс",
+                  "Intensive": "Интенсив",
+                  "Davomiyligi: 5 oy": "Продолжительность: 5 месяцев",
+                  "Koreys tilini": "Корейский язык",
+                  "chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.": "Интенсивный курс для тех, кто хочет углубленно изучать корейский язык 6 дней в неделю по 1.5 часа.",
+                  "Ro'yhatdan o'tish": "Записаться",
+                  "970.000 so'm/oy": "970.000 сум/месяц",
+                  "Odatiy": "Обычный",
+                  "Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.": "Обычные занятия по корейскому языку 3 дня в неделю по 1.5 часа.",
+                  "560.000 so'm/oy": "560.000 сум/месяц",
+                  "Individual": "Индивидуальный",
+                  "O’qituvchidan": "От преподавателя",
+                  "individual": "индивидуальные",
+                  "dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.": "Индивидуальные занятия 3 дня в неделю по 1.5 часа. Гибкий график и индивидуальный подход.",
+                  "1.800.000 so'm/oy": "1.800.000 сум/месяц"
                 }
-              
-              
-          
-          
-      
-      
-}
-  
