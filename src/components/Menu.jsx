@@ -21,10 +21,10 @@ function Menu() {
                     <nav className="header-nav navbar text-green-400">
                         <ul className="navbar-list">
                             <li className="nav-item"><Link to="/about">{t("Nega biz")}</Link></li>
-                            <li className="nav-item"><Link to="/suggestion">{t("Suggestions")}</Link></li>
+                            <li className="nav-item"><Link to="/suggestion">{t("Takliflar")}</Link></li>
                             <li className="nav-item"><Link to="/results">{t("Natijalar")}</Link></li>
                             <li className="nav-item"><Link to="/grant">{t("Grant")}</Link></li>
-                            <li className="nav-item"><Link to="/aid">{t("Support")}</Link></li>
+                            <li className="nav-item"><Link to="/aid">{t("Qo`llab-Quvvatlash")}</Link></li>
                             <li className="nav-item"><Link to="/courses">{t("Kurslar")}</Link></li>
                             <li className="nav-item"><Link to="/faq">{t("Ko’p beriladigan savollar")}</Link></li>
                             
