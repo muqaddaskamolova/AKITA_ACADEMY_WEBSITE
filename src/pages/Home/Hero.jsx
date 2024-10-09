@@ -1,10 +1,10 @@
-import  { useState } from "react";
+// Hero.jsx (Updated without background image code)
+import { useState } from "react";
 import Decoration from "../../assets/images/littleakita.png";
-import Castle from "../../assets/images/saroy.png";
 import "./hero.css";
 import { useTranslation } from "react-i18next";
-//import { Button, Flex } from 'antd';
 import axios from 'axios';
+
 function Hero() {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(false);
@@ -36,34 +36,35 @@ function Hero() {
       .finally(() => {
         setLoading(false);
       });
-    }
+  }
+
   return (
     <div className="relative p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24">
       <p className="text-base sm:text-lg md:text-xl lg:text-2xl py-3 text-center font-semibold text-green-900">
-        {t("3 oyda Koreys tilida gapirishni boshlang")} </p>
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-center py-3 max-w-4xl mx-auto tracking-wide text-green-900">
-        {t("Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati")} 
+        {t("3 oyda Koreys tilida gapirishni boshlang")}
+      </p>
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-center py-3 tracking-wide text-green-900">
+        {t("Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati")}
       </h1>
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-3xl mx-auto mt-6">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-6">
         <li className="flex items-start gap-4 sm:gap-5 p-4 bg-white rounded-lg shadow-md">
           <img src={Decoration} alt="" className="w-8 h-16" />
           <p className="text-sm sm:text-base md:text-lg max-w-xs sm:max-w-md text-green-900">
-            {t("5 oyda Akitadan 6 darajagacha olishda yordam beramiz")} 
+            {t("5 oyda Akitadan 6 darajagacha olishda yordam beramiz")}
           </p>
         </li>
         <li className="flex items-start gap-4 sm:gap-5 p-4 bg-white rounded-lg shadow-md">
           <img src={Decoration} alt="" className="w-8 h-16" />
           <p className="text-sm sm:text-base md:text-lg max-w-xs sm:max-w-md text-green-900">
-            {t("Akitadan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati")} 
+            {t("Akitadan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati")}
           </p>
         </li>
       </ul>
 
-      <img src={Castle} alt="" className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1/2 sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4" />
-
+      {/* Form Section */}
       <div className="text-center mt-6">
-        <form id="myForm" className="flex flex-col gap-4 max-w-md mx-auto" onSubmit={SendMessage}>
+        <form id="myForm" className="flex flex-col gap-4 mx-auto" onSubmit={SendMessage}>
           <input
             id="fullname"
             type="text"
@@ -84,9 +85,9 @@ function Hero() {
             {loading ? 'Yuborilmoqda...' : t("Bepul kursga yozilish")}
           </button>
         </form>
-        
       </div>
-      <p className="text-center mt-3 text-sm sm:text-base">{t("Birinchi darsga bepul yoziling!")} </p>
+
+      <p className="text-center mt-3 text-sm sm:text-base">{t("Birinchi darsga bepul yoziling!")}</p>
     </div>
   );
 }

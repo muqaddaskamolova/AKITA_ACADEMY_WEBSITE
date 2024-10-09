@@ -14,7 +14,7 @@ function Suggestion() {
   return (
     <div className="py-10 px-4 md:px-8">
       {/* Sarlavha */}
-      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-10 max-w-4xl mx-auto">
+      <h2 className="text-3xl md:text-4xl text-green-900 font-semibold text-center mb-10 max-w-4xl mx-auto">
         {t("AKITA academiya aniq siz uchun agar siz")} :
       </h2>
       
@@ -25,7 +25,7 @@ function Suggestion() {
             <img src={Chat} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
-            <span className="text-blue-400">{t("Qisqa")}</span> {t("muddat ichida Koreys tilida gaplashishni istaysiz")}
+            <span className="text-blue-600">{t("Qisqa")}</span> {t("muddat ichida Koreys tilida gaplashishni istaysiz")}
           </p>
         </li>
 
@@ -35,7 +35,7 @@ function Suggestion() {
           </div>
           <p className="text-base">
             {t("Koreys tilini o'rganib o'z")} 
-            <span className="text-blue-400">{t("karyerangizni")}</span> {t("qurmoqchisiz")}
+            <span className="text-blue-600">{t("karyerangizni")}</span> {t("qurmoqchisiz")}
           </p>
         </li>
 
@@ -45,7 +45,7 @@ function Suggestion() {
           </div>
           <p className="text-base">
             {t("Akita sertifikatini olib Koreyaning nufuzli universitetlariga")} 
-            <span className="text-blue-400">{t("GRANT")}</span>{t(" yutmoqchisiz")}
+            <span className="text-blue-600">{t("GRANT")}</span>{t(" yutmoqchisiz")}
           </p>
         </li>
 
@@ -55,28 +55,28 @@ function Suggestion() {
           </div>
           <p className="text-base">
             {t("Janubiy Koreya davlatida")} 
-            <span className="text-blue-400">{t("o’qish")}</span>{t("va")} 
-            <span className="text-blue-400">{t("ishlash")}</span> {t("uchun ketmoqchisiz")}
+            <span className="text-blue-600">{t("o’qish")}</span>{t("va")} 
+            <span className="text-blue-600">{t("ishlash")}</span> {t("uchun ketmoqchisiz")}
           </p>
         </li>
 
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Target} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
             {t("Koreys tilini o’rta darajda bilasiz va darajangizni")} {" "}
-            <span className="text-blue-400">{t("oshirmoqchisiz")}</span>
+            <span className="text-blue-600">{t("oshirmoqchisiz")}</span>
           </p>
         </li>
 
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Key} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
             {t("Ko’p yillardan buyon o’qib ham")} 
-            <span className="text-blue-400">{t("natijaga")}</span>{t("chiqa olmayapsiz")} 
+            <span className="text-blue-600">{t("natijaga")}</span>{t("chiqa olmayapsiz")} 
           </p>
         </li>
       </ul>
