@@ -21,7 +21,7 @@ function Suggestion() {
       {/* Tavsiyalar ro'yxati */}
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Chat} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
@@ -30,7 +30,7 @@ function Suggestion() {
         </li>
 
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Rocket} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
@@ -40,7 +40,7 @@ function Suggestion() {
         </li>
 
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Money} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
@@ -50,7 +50,7 @@ function Suggestion() {
         </li>
 
         <li className="flex flex-col items-center text-center max-w-xs mx-auto">
-          <div className="bg-blue-200 rounded-full w-32 h-32 flex items-center justify-center mb-4">
+          <div className="bg-blue-400 rounded-full w-32 h-32 flex items-center justify-center mb-4">
             <img src={Travel} alt="" className="w-16 h-16" />
           </div>
           <p className="text-base">
