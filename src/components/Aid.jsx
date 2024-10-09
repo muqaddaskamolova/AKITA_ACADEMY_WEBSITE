@@ -40,7 +40,7 @@ function Aid() {
   
 
   return (
-    <div className="align-content mt-10 px-4 lg:px-0">
+    <div className="align-content mt-10 px-4  relative p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24">
       {/* Sarlavha */}
       <h3 className="text-2xl lg:text-4xl font-semibold text-center mb-10 max-w-3xl mx-auto">
         {t("Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz")}
