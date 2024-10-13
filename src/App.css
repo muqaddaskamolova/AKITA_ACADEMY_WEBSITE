@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.placeholder-light-white::placeholder {
+  color: rgba(255, 255, 255, 0.8); /* Light white */
+  opacity: 1; /* Ensure full opacity */
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

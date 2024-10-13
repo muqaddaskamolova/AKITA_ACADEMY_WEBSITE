@@ -17,15 +17,18 @@ function App() {
     <Router>
       <div className="relative min-h-screen">
         {/* Background Image with Opacity */}
-        <div
+         <div
           className="fixed top-0 left-0 w-full h-full -z-10 opacity-50"
           style={{
             backgroundImage: `url(${Castle})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
+            opocity: 'brightness(60%) ',
           }}
-        ></div>
+           >
+
+        </div>
 
         {/* Content */}
         <div className="relative z-10">

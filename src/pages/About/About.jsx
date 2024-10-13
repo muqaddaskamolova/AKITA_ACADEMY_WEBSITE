@@ -14,53 +14,19 @@ function About() {
     <div className="my-10 relative p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24" id="About">
       <h3 className="text-4xl text-green-900 text-center mb-20">{t("about.title")}</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-16">
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test1} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.professionalTeachers")}</h5>
-            <p className="text-green-800" >{t("about.professionalTeachersDescription")}</p>
+        {[Test1, Test2, Test3, Test4, Test5, Test6].map((image, index) => (
+          <div key={index} className="card w-full max-w-sm shadow-xl bg-gradient-to-b from-green-200 to-green-400 h-[240px] relative"> {/* Adjusted height */}
+            <img src={image} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
+            <div className="card-body px-6 pt-12 pb-6">
+              <h4 className="card-title text-green-900 text-xl font-bold">
+                {t(`about.${["professionalTeachers", "freeCoworking", "weeklyEvents", "freeExams", "supportCurators", "consultantService"][index]}`)}
+              </h4>
+              <p className="text-lg">
+                {t(`about.${["professionalTeachersDescription", "freeCoworkingDescription", "weeklyEventsDescription", "freeExamsDescription", "supportCuratorsDescription", "consultantServiceDescription"][index]}`)}
+              </p>
+            </div>
           </div>
-        </div>
-
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test2} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.freeCoworking")}</h5>
-            <p className="text-green-800">{t("about.freeCoworkingDescription")}</p>
-          </div>
-        </div>
-
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test3} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.weeklyEvents")}</h5>
-            <p className="text-green-800">{t("about.weeklyEventsDescription")}</p>
-          </div>
-        </div>
-
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test4} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.freeExams")}</h5>
-            <p className="text-green-800">{t("about.freeExamsDescription")}</p>
-          </div>
-        </div>
-
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test5} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.supportCurators")}</h5>
-            <p className="text-green-800">{t("about.supportCuratorsDescription")}</p>
-          </div>
-        </div>
-
-        <div className="card w-full max-w-sm shadow-xl min-h-48 relative">
-          <img src={Test6} alt="" width={64} height={64} className="absolute top-[-35px] left-6" />
-          <div className="card-body px-6 pt-12 pb-6">
-            <h5 className="card-title text-green-900 text-xl font-bold">{t("about.consultantService")}</h5>
-            <p className="text-green-800">{t("about.consultantServiceDescription")}</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

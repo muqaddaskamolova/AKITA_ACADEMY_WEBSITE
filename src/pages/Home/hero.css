@@ -5,7 +5,11 @@
     background-repeat: no-repeat;
     margin-bottom: 132px;
   }
-  
+  .placeholder-light-white::placeholder {
+    color: rgba(255, 255, 255, 0.8); /* Light white */
+    opacity: 1; /* Ensure full opacity */
+    
+  }
   .hero-span {
     display: inline-block;
     margin-top: 58px;

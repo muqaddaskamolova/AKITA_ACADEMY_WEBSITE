@@ -1,7 +1,6 @@
 
 import Menu from "./Menu";
-
-import { SocialIcon } from 'react-social-icons'
+import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
   return (
@@ -12,15 +11,18 @@ function Footer() {
           <div className="flex flex-col md:flex-row items-center md:space-x-6 mb-4 md:mb-0">
             <Menu />
           </div>
-          {/* Social Media Icons */}
-          <div className="flex space-x-4 items-center">
-    <SocialIcon className="w-3 h-3" url="https://telegram.com/mkm_developer" />
-    <SocialIcon className="w-3 h-3" url="https://instagram.com" />
-    <SocialIcon className="w-3 h-3" url="https://youtube.com" />
-    <SocialIcon className="w-3 h-3" network="github" url="https://github.com/muqaddaskamolova" />
-    
-</div>
           
+          {/* Social Media Icons */}
+          <div className="flex flex-col space-y-2 items-center md:ml-0 md:justify-end"> {/* Adjusted layout */}
+            <div className="flex space-x-4"> {/* Top row */}
+              <SocialIcon className="w-5 h-5" url="https://telegram.com/mkm_developer" />
+              <SocialIcon className="w-5 h-5" url="https://instagram.com" />
+            </div>
+            <div className="flex space-x-4"> {/* Bottom row */}
+              <SocialIcon className="w-5 h-5" url="https://youtube.com" />
+              <SocialIcon className="w-5 h-5" network="github" url="https://github.com/muqaddaskamolova" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
