@@ -15,10 +15,10 @@ function Menu() {
                 </Link>
                 
                 <div className="header-innerWrapper flex mt-3 items-center text-green-900">
-                    <span className="header-span bg-green-200 p-2 rounded-md">{t("logo-text")}</span> {/* Background for logo text */}
+                    <span className="header-span bg-green-200 p-2 rounded-md">{t("logo-text")}</span>
                     
-                    <nav className="header-nav navbar text-green-400 bg-green-100 rounded-lg p-3 shadow-lg transition duration-300 ease-in-out hover:shadow-xl">
-                        <ul className="navbar-list flex items-center space-x-4"> {/* Changed space-x-6 to space-x-4 */}
+                    <nav className="header-nav navbar text-green-400 bg-green-100 rounded-lg p-3 shadow-lg transition duration-300 ease-in-out hover:shadow-xl ml-4"> {/* Add ml-4 for margin-left */}
+                        <ul className="navbar-list flex items-center space-x-4">
                             <li className="nav-item"><Link className="nav-link hover:text-green-600 transition duration-200" to="/about">{t("Nega biz")}</Link></li>
                             <li className="nav-item"><Link className="nav-link hover:text-green-600 transition duration-200" to="/suggestion">{t("Takliflar")}</Link></li>
                             <li className="nav-item"><Link className="nav-link hover:text-green-600 transition duration-200" to="/results">{t("Natijalar")}</Link></li>

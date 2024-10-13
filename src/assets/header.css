@@ -4,6 +4,7 @@
 }
 .header-nav .navbar {
     display: inline-block;
+    margin-left: 15px;
 }
 .header-img-logo {
     margin-right: 14px;
