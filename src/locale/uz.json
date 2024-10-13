@@ -1,4 +1,5 @@
 {
+    "namePlaceholder": "Ismingiz va Familiyangiz",
     "Tillar":"Tillar",
     "logo-text": "Toshkentda joylashgan Koreys tili hamda Akita o’quv markazi",
     "Nega biz":  "Nega biz",
@@ -69,14 +70,17 @@
             "subtitle": "Savollaringiz qoldimi?",
             "contactPrompt": "Ma'lumotlaringizni qoldiring, siz bilan bog'lanib barcha savollaringizga javob beramiz.",
             "namePlaceholder": "Ismingiz",
-            "phonePlaceholder": "+998 99-999-99-99",
+            "questionPlaceholder": "Savol...",
             "sending": "Yuborilmoqda...",
             "submit": "Savol berish",
             "successMessage": "Xabaringiz muvaffaqiyatli yuborildi!",
-            "errorMessage": "Xatolik yuz berdi, iltimos yana urinib ko'ring!"
+            "errorMessage": "Xatolik yuz berdi, iltimos yana urinib ko'ring!",
+             "fillAllFields": "Iltimos, barcha maydonlarni to'ldiring.",
+             "messageSuccess": "Xabaringiz muvaffaqiyatli yuborildi!"
           },
           "O'zingizga mos kursga ro'yhatdan o'ting": "O'zingizga mos kursga ro'yhatdan o'ting",
             "Intensive": "Intensive",
+             "more_info": "Ko'proq ma'lumot...",
             "Davomiyligi: 5 oy": "Davomiyligi: 5 oy",
             "Koreys tilini": "Koreys tilini",
             "chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.": "chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.",

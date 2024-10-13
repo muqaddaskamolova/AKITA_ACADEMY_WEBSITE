@@ -9,8 +9,8 @@ function FAQ() {
   const [loading, setLoading] = useState(false); 
   const [openQuestion, setOpenQuestion] = useState(null);
   
-  const [name, setName] = useState(''); // State for name input
-  const [phone, setPhone] = useState(''); // State for phone input
+  const [fullname, setName] = useState(''); // State for name input
+  const [question, setQuestion] = useState(''); // State for phone input
 
   const toggleQuestion = (questionIndex) => {
     if (openQuestion === questionIndex) {
@@ -20,71 +20,48 @@ function FAQ() {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
 
     // Validate that both name and phone are filled
-    if (!name.trim() || !phone.trim()) {
+    if (!fullname.trim() || !question.trim()) {
       alert(t('faq.fillAllFields')); // Alert user to fill all fields
       return; // Exit the function if any field is empty
     }
 
-    SendMessage(e, setLoading, t); // Call SendMessage if validation passes
+    setLoading(true); // Set loading to true while sending message
+
+    try {
+      await SendMessage(fullname, question, t); // Wait for SendMessage to complete
+      alert(t('faq.messageSuccess')); // Alert about success
+      setName(''); // Clear name input
+      setQuestion(''); // Clear phone input
+    } catch (error) {
+      console.error('Message sending failed:', error);
+      alert(t('faq.messageError')); // Alert about failure
+    } finally {
+      setLoading(false); // Reset loading state
+    }
   };
 
   return (
     <div className="p-4 sm:p-8 lg:p-16" id="Questions">
-      <h3 className="text-3xl sm:text-4xl text-center mb-8 sm:mb-10">{t('faq.title')}</h3>
+      <h3 className="text-3xl text-green-900 sm:text-4xl text-center mb-8 sm:mb-10">{t('faq.title')}</h3>
       <ul className="max-w-3xl mx-auto">
-        <li className="bg-white p-4 rounded-lg shadow-md mb-4">
-          <div className="flex justify-between items-center" onClick={() => toggleQuestion(1)}>
-            <p className="text-base sm:text-lg">{t('faq.question1')}</p>
-            <span className="bg-green-900 rounded-full font-bold text-white text-lg px-3 py-1">
-              {openQuestion === 1 ? '-' : '+'}
-            </span>
-          </div>
-          {openQuestion === 1 && (
-            <p className="mt-4 text-sm sm:text-base">{t('faq.answer1')}</p>
-          )}
-        </li>
-
-        <li className="bg-white p-4 rounded-lg shadow-md mb-4">
-          <div className="flex justify-between items-center" onClick={() => toggleQuestion(2)}>
-            <p className="text-base sm:text-lg">{t('faq.question2')}</p>
-            <span className="bg-green-900 rounded-full font-bold text-white text-lg px-3 py-1">
-              {openQuestion === 2 ? '-' : '+'}
-            </span>
-          </div>
-          {openQuestion === 2 && (
-            <p className="mt-4 text-sm sm:text-base">{t('faq.answer2')}</p>
-          )}
-        </li>
-
-        <li className="bg-white p-4 rounded-lg shadow-md mb-4">
-          <div className="flex justify-between items-center" onClick={() => toggleQuestion(3)}>
-            <p className="text-base sm:text-lg">{t('faq.question3')}</p>
-            <span className="bg-green-900 rounded-full font-bold text-white text-lg px-3 py-1">
-              {openQuestion === 3 ? '-' : '+'}
-            </span>
-          </div>
-          {openQuestion === 3 && (
-            <p className="mt-4 text-sm sm:text-base">{t('faq.answer3')}</p>
-          )}
-        </li>
-
-        <li className="bg-white p-4 rounded-lg shadow-md mb-4">
-          <div className="flex justify-between items-center" onClick={() => toggleQuestion(4)}>
-            <p className="text-base sm:text-lg">{t('faq.question4')}</p>
-            <span className="bg-green-900 rounded-full font-bold text-white text-lg px-3 py-1">
-              {openQuestion === 4 ? '-' : '+'}
-            </span>
-          </div>
-          {openQuestion === 4 && (
-            <p className="mt-4 text-sm sm:text-base">{t('faq.answer4')}</p>
-          )}
-        </li>
-
-        
+        {/* Questions rendering logic remains the same */}
+        {[1, 2, 3, 4].map(index => (
+          <li key={index} className="bg-white p-4 rounded-lg shadow-md mb-4">
+            <div className="flex justify-between items-center" onClick={() => toggleQuestion(index)}>
+              <p className="text-base sm:text-lg">{t(`faq.question${index}`)}</p>
+              <span className="bg-green-900 rounded-full font-bold text-white text-lg px-3 py-1">
+                {openQuestion === index ? '-' : '+'}
+              </span>
+            </div>
+            {openQuestion === index && (
+              <p className="mt-4 text-sm sm:text-base">{t(`faq.answer${index}`)}</p>
+            )}
+          </li>
+        ))}
       </ul>
 
       <div className="bg-gray-200 px-4 py-6 sm:px-8 sm:py-8 lg:px-16 lg:py-10 bg-opacity-70 rounded-2xl mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -96,17 +73,17 @@ function FAQ() {
           <input
             id="name"
             type="text"
-            placeholder={t('faq.namePlaceholder')}
-            value={name}
+            placeholder={t('namePlaceholder')}
+            value={fullname}
             onChange={(e) => setName(e.target.value)} // Update name state on change
             className="input placeholder-light-white text-center input-bordered rounded-3xl input-primary w-full bg-green-400 bg-opacity-60"
           />
           <input
             id="phone"
             type="text"
-            placeholder={t('faq.phonePlaceholder')}
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)} // Update phone state on change
+            placeholder={t('faq.questionPlaceholder')}
+            value={question}
+            onChange={(e) => setQuestion(e.target.value)} // Update phone state on change
             className="input placeholder-light-white text-center input-bordered rounded-3xl input-primary w-full bg-green-400 bg-opacity-60"
           />
           <button

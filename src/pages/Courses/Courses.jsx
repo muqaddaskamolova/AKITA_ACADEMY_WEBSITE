@@ -37,7 +37,7 @@ function Courses() {
                 className="btn btn-accent rounded-full px-6 text-xs text-green-900"
                 onClick={() => toggleCourseDetails("Intensive")}
               >
-                {t(activeCourse === "Intensive" ? "Ma'lumotni yopish" : "Ko'proq ma'lumot...")}
+                {t(activeCourse === "Intensive" ? "Ma'lumotni yopish" : "more_info")}
               </button>
               <p className="text-xs text-green-700 font-semibold">{t("970.000 so'm/oy")}</p>
             </span>
@@ -72,7 +72,7 @@ function Courses() {
                 className="btn btn-accent rounded-full px-6 text-xs text-green-900"
                 onClick={() => toggleCourseDetails("Odatiy")}
               >
-                {t(activeCourse === "Odatiy" ? "Ma'lumotni yopish" : "Ko'proq ma'lumot...")}
+                {t(activeCourse === "Odatiy" ? "Ma'lumotni yopish" : "more_info")}
               </button>
               <p className="text-xs text-green-700 font-semibold">{t("560.000 so'm/oy")}</p>
             </span>
@@ -107,7 +107,7 @@ function Courses() {
                 className="btn btn-accent rounded-full px-6 text-xs text-green-900"
                 onClick={() => toggleCourseDetails("Individual")}
               >
-                {t(activeCourse === "Individual" ? "Ma'lumotni yopish" : "Ko'proq ma'lumot...")}
+                {t(activeCourse === "Individual" ? "Ma'lumotni yopish" : "more_info")}
               </button>
               <p className="text-xs text-green-700 font-semibold">{t("1.800.000 so'm/oy")}</p>
             </span>

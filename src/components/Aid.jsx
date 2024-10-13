@@ -67,7 +67,7 @@ function Aid() {
               <input
                 id="fullname"
                 type="text"
-                placeholder="Ism va Familiyangiz"
+                placeholder={t('namePlaceholder')} 
                 className="placeholder-light-white text-center input input-bordered rounded-3xl input-primary w-full bg-green-900 bg-opacity-60"
               />
               <button

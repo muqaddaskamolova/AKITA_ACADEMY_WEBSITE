@@ -13,15 +13,11 @@ function Footer() {
           </div>
           
           {/* Social Media Icons */}
-          <div className="flex flex-col space-y-2 items-center md:ml-0 md:justify-end"> {/* Adjusted layout */}
-            <div className="flex space-x-4"> {/* Top row */}
-              <SocialIcon className="w-5 h-5" url="https://telegram.com/mkm_developer" />
-              <SocialIcon className="w-5 h-5" url="https://instagram.com" />
-            </div>
-            <div className="flex space-x-4"> {/* Bottom row */}
-              <SocialIcon className="w-5 h-5" url="https://youtube.com" />
-              <SocialIcon className="w-5 h-5" network="github" url="https://github.com/muqaddaskamolova" />
-            </div>
+          <div className="flex flex-row space-x-4 items-center md:ml-0 md:justify-end"> {/* Horizontal layout */}
+            <SocialIcon className="w-5 h-5" url="https://telegram.com/mkm_developer" />
+            <SocialIcon className="w-5 h-5" url="https://instagram.com" />
+            <SocialIcon className="w-5 h-5" url="https://youtube.com" />
+            <SocialIcon className="w-5 h-5" network="github" url="https://github.com/muqaddaskamolova" />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 {
+    "namePlaceholder": "Ваше Имя и Фамилия",
     "Tillar":"Языки",
      "logo-text": "Учебный центр корейского языка и AKITA, расположенный в Ташкенте\n",
     "Nega biz":  "Почему мы",
@@ -90,15 +91,18 @@
                   "subtitle": "Остались вопросы?",
                   "contactPrompt": "Оставьте свои данные, и мы свяжемся с вами, чтобы ответить на все ваши вопросы.",
                   "namePlaceholder": "Ваше имя",
-                  "phonePlaceholder": "+7 999-999-99-99",
+                  "questionPlaceholder": "Вопросы...",
                   "sending": "Отправка...",
                   "submit": "Задать вопрос",
                   "successMessage": "Ваше сообщение успешно отправлено!",
-                  "errorMessage": "Что-то пошло не так! Попробуйте снова."
+                  "errorMessage": "Что-то пошло не так! Попробуйте снова.",
+                   "fillAllFields": "Пожалуйста, заполните все поля.",
+                   "messageSuccess": "Ваше сообщение успешно отправлено!"
                 },
                 "Haftada 3 kun 1.5 soatdan  iborat odatiy Koreys tili  darslari.":"Обычные занятия по корейскому языку 3 дня в неделю по 1.5 часа.",
                   "O'zingizga mos kursga ro'yhatdan o'ting": "Запишитесь на подходящий для вас курс",
                   "Intensive": "Интенсив",
+                  "more_info": "Больше информации...",
                   "Davomiyligi: 5 oy": "Продолжительность: 5 месяцев",
                   "Koreys tilini": "Корейский язык",
                   "chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.": "Интенсивный курс для тех, кто хочет углубленно изучать корейский язык 6 дней в неделю по 1.5 часа.",

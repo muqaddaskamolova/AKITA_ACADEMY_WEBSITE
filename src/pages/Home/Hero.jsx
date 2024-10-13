@@ -76,7 +76,7 @@ function Hero() {
           <input
             id="fullname"
             type="text"
-            placeholder="Ismingiz va Familiyangiz"
+            placeholder={t('namePlaceholder')} 
             className="input input-bordered text-center rounded-full input-primary w-full file:text-white bg-green-700 bg-opacity-50 placeholder-light-white"
           />
           <input
@@ -90,7 +90,7 @@ function Hero() {
             type="submit"
             className={`inline-flex items-center justify-center text-white bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-full py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl font-semibold transition transform hover:scale-105`}
             disabled={loading}
-          >
+           >
             {loading ? 'Yuborilmoqda...' : t("Bepul kursga yozilish")}
           </button>
         </form>

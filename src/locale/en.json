@@ -1,4 +1,5 @@
 {
+    "namePlaceholder": "Your First and Last Name",
     "Tillar":"Languages",
     "logo-text": "Korean Language and AKITA Study Center located in Tashkent",
     "Nega biz":  "Why Us",
@@ -85,11 +86,13 @@
             "subtitle": "Still have questions?",
             "contactPrompt": "Leave your details, and we will contact you to answer all your questions.",
             "namePlaceholder": "Your name",
-            "phonePlaceholder": "+1 999-999-99-99",
+            "questionPlaceholder": "Questions...",
             "sending": "Sending...",
             "submit": "Submit question",
             "successMessage": "Your message has been sent successfully!",
-            "errorMessage": "Something went wrong! Please try again."
+            "errorMessage": "Something went wrong! Please try again.",
+            "fillAllFields": "Please fill all fields.",
+            "messageSuccess": "Your message has been sent successfully!"
           },
             "courses": {
               "title": "Register for a Course That Suits You",
@@ -98,7 +101,8 @@
                 "duration": "Duration: 5 months",
                 "description": "An intensive course for those who want to deeply master the Korean language, with classes 6 days a week, 1.5 hours each.",
                 "price": "970,000 UZS/month",
-                "register": "Register"
+                "register": "Register",
+                "more_info": "More information..."
               },
               "standard": {
                 "name": "Standard",
