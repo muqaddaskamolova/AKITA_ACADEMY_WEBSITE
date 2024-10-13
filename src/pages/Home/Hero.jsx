@@ -1,4 +1,3 @@
-// Hero.jsx (Updated without background image code)
 import { useState } from "react";
 import Decoration from "../../assets/images/littleakita.png";
 import "./hero.css";
@@ -72,23 +71,23 @@ function Hero() {
 
       {/* Form Section */}
       <div className="text-center mt-6">
-        <form id="myForm" className="flex flex-col gap-4 mx-auto" onSubmit={SendMessage}>
+        <form id="myForm" className="flex flex-col items-center gap-4 mx-auto" onSubmit={SendMessage}>
           <input
             id="fullname"
             type="text"
             placeholder={t('namePlaceholder')} 
-            className="input input-bordered text-center rounded-full input-primary w-full file:text-white bg-green-700 bg-opacity-50 placeholder-light-white"
+            className="input input-bordered text-center rounded-full input-primary w-full max-w-xs sm:max-w-sm file:text-white bg-green-700 bg-opacity-50 placeholder-light-white"
           />
           <input
             id="phone"
             type="text"
             placeholder="+998 99-999-99-99"
-            className="text-center input input-bordered rounded-full input-primary w-full text-white bg-green-700 bg-opacity-50 placeholder-light-white"
+            className="text-center input input-bordered rounded-full input-primary w-full max-w-xs sm:max-w-sm text-white bg-green-700 bg-opacity-50 placeholder-light-white"
           />
 
           <button
             type="submit"
-            className={`inline-flex items-center justify-center text-white bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-full py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl font-semibold transition transform hover:scale-105`}
+            className={`inline-flex items-center justify-center text-white bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-full py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl font-semibold transition transform hover:scale-105 w-full max-w-xs sm:max-w-sm`}
             disabled={loading}
            >
             {loading ? 'Yuborilmoqda...' : t("Bepul kursga yozilish")}
