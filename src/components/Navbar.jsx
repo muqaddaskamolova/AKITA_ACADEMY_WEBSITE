@@ -40,12 +40,14 @@ function Navbar() {
         <div className="navbar-end hidden lg:flex items-center ml-5">
         {/* Aloqa ma'lumotlari */}
         <a href="#Contact">
+          
           <p className="flex flex-col font-semibold text-green-900">
             +998 (33) 306 00 98
              <span>{t("Hoziroq bog'\nlaning")}</span> 
           </p>
         </a>
       </div>
+
       <li className="nav-item language-item mb-6 lg:mt-0">
                 <Languages />
               </li>
