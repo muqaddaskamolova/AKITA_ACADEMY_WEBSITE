@@ -44,7 +44,7 @@ function FAQ() {
     }
   };
 
-  return (
+  return  (
     <div className="p-4 sm:p-8 lg:p-16" id="Questions">
       <h3 className="text-3xl text-green-900 sm:text-4xl text-center mb-8 sm:mb-10">{t('faq.title')}</h3>
       <ul className="max-w-3xl mx-auto">

@@ -1,7 +1,7 @@
 import Menu from './Menu';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
-//import Languages from '../Languages/Languages';
+import Languages from '../Languages/Languages';
 
 function Navbar() { 
   const { t } = useTranslation();
@@ -37,7 +37,7 @@ function Navbar() {
           <Menu />
          </div>
          
-        <div className="navbar-end hidden lg:flex items-center">
+        <div className="navbar-end hidden lg:flex items-center ml-5">
         {/* Aloqa ma'lumotlari */}
         <a href="#Contact">
           <p className="flex flex-col font-semibold text-green-900">
@@ -46,7 +46,9 @@ function Navbar() {
           </p>
         </a>
       </div>
-     
+      <li className="nav-item language-item mb-6 lg:mt-0">
+                <Languages />
+              </li>
       </div>
 </div>
   );

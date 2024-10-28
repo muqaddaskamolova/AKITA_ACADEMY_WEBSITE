@@ -14,7 +14,6 @@ function Hero() {
     const fullname = document.getElementById('fullname').value.trim();
     const phonenumber = document.getElementById('phone').value.trim();
 
-    // Validate that inputs are not empty
     if (!fullname || !phonenumber) {
       alert('Iltimos, barcha maydonlarni to\'ldiring.');
       return;
@@ -43,10 +42,10 @@ function Hero() {
       .finally(() => {
         setLoading(false);
       });
-  }
+  };
 
   return (
-    <div className="relative p-4 sm:p-8 md:p-12 lg:p-16 xl:p-24">
+    <div className="relative px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24 py-8 sm:py-10">
       <p className="text-base sm:text-lg md:text-xl lg:text-2xl py-3 text-center font-semibold text-green-900">
         {t("3 oyda Koreys tilida gapirishni boshlang")}
       </p>
@@ -69,9 +68,8 @@ function Hero() {
         </li>
       </ul>
 
-      {/* Form Section */}
       <div className="text-center mt-6">
-        <form id="myForm" className="flex flex-col items-center gap-4 mx-auto" onSubmit={SendMessage}>
+        <form id="myForm" className="flex flex-col items-center gap-4 mx-auto w-full max-w-xs sm:max-w-sm md:max-w-md" onSubmit={SendMessage}>
           <input
             id="fullname"
             type="text"
@@ -89,7 +87,7 @@ function Hero() {
             type="submit"
             className={`inline-flex items-center justify-center text-white bg-gradient-to-r from-emerald-600 to-emerald-800 rounded-full py-3 px-6 sm:py-4 sm:px-8 text-lg sm:text-xl font-semibold transition transform hover:scale-105 w-full max-w-xs sm:max-w-sm`}
             disabled={loading}
-           >
+          >
             {loading ? 'Yuborilmoqda...' : t("Bepul kursga yozilish")}
           </button>
         </form>
