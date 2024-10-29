@@ -13,7 +13,7 @@ function Footer() {
           </div>
           
           {/* Social Media Icons */}
-          <div className="flex space-x-4 mt-4 md:mt-0">
+          <div className="flex space-x-4 space-y-2 mt-4 md:mt-0">
             <SocialIcon className="w-8 h-8" url="https://telegram.com/mkm_developer" />
             <SocialIcon className="w-8 h-8" url="https://instagram.com" />
             <SocialIcon className="w-8 h-8" url="https://youtube.com" />
